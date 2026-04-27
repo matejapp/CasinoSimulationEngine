@@ -1,0 +1,6 @@
+.vs/
+build/
+*.exe
+*.o
+casino_data.txt
+.vscode/settings.json

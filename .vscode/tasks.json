@@ -1,0 +1,44 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build casino",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-I${workspaceFolder}\\include",
+                "${workspaceFolder}\\src\\BaseException.cpp",
+                "${workspaceFolder}\\src\\Blackjack.cpp",
+                "${workspaceFolder}\\src\\BlackjackException.cpp",
+                "${workspaceFolder}\\src\\Casino.cpp",
+                "${workspaceFolder}\\src\\CasinoMenus.cpp",
+                "${workspaceFolder}\\src\\CasinoRepository.cpp",
+                "${workspaceFolder}\\src\\Game.cpp",
+                "${workspaceFolder}\\src\\GameException.cpp",
+                "${workspaceFolder}\\src\\InvalidInputException.cpp",
+                "${workspaceFolder}\\src\\Player.cpp",
+                "${workspaceFolder}\\src\\PlayerException.cpp",
+                "${workspaceFolder}\\src\\PseudoRoulette.cpp",
+                "${workspaceFolder}\\src\\PseudoRouletteException.cpp",
+                "${workspaceFolder}\\src\\RandomGenerator.cpp",
+                "${workspaceFolder}\\src\\Score.cpp",
+                "${workspaceFolder}\\main.cpp",
+                "-o",
+                "${workspaceFolder}\\build\\Debug\\outDebug.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds all casino source files."
+        }
+    ],
+    "version": "2.0.0"
+}
